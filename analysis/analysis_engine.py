@@ -7,7 +7,7 @@ import numpy as np
 from typing import Dict, List, Optional, Tuple, Union
 from datetime import datetime
 
-from ..data.market_data import MarketDataFetcher, DataProcessor
+from data.market_data import MarketDataFetcher, DataProcessor
 
 logger = logging.getLogger('options_bot')
 
@@ -26,7 +26,7 @@ class RuleBasedAnalysis:
         Args:
             symbol: Stock/index symbol
             timeframe: Time frame for analysis
-            
+                 
         Returns:
             Dictionary with trend analysis
         """
