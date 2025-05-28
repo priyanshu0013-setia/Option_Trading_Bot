@@ -1,9 +1,0 @@
-python-telegram-bot==22.1
-pandas==2.2.3
-numpy==2.2.6
-scikit-learn==1.6.1
-matplotlib==3.7.2
-plotly==5.18.0
-python-dotenv==1.0.0
-redis==5.0.1
-gunicorn==21.2.0
